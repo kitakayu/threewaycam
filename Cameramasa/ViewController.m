@@ -190,7 +190,6 @@
 //保存ボタンが押されたときの処理
 - (IBAction)doSave:(id)sender {
     NSLog(@"保存");
-    //_aImageViewだった
     UIImage *aImage = [aImageView image];
     if ( aImage == nil ) {
         return;
